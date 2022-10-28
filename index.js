@@ -167,9 +167,9 @@ const addEmployee = () => {
         }
     ])
     .then(employeeData => {
-        // data for employee types 
 
-        let { name, id, email, role, github, school, confirmAddEmployee } = employeeData; 
+        // data for employee types 
+let { name, id, email, role, github, school, confirmAddEmployee } = employeeData; 
         let employee; 
 
         if (role === "Engineer") {
